@@ -1,0 +1,5 @@
+suites:
+  yos_suite:
+    namespace: Yos
+    src_path: src
+    spec_prefix: spec

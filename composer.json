@@ -1,0 +1,27 @@
+{
+    "name": "yos/robokassa",
+    "description": "",
+    "authors": [
+        {
+            "name": "Yos",
+            "email": "yos.virtus@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*@dev",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Yos\\Robokassa\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
